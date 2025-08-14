@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investor Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="user-style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="sidebar-container"></div>
+
+        <div class="main">
+            <div class="topbar">
+                <div class="search">
+                    <label>
+                        <input type="text" placeholder="Search here">
+                        <ion-icon name="search-outline"></ion-icon>
+                    </label>
+                </div>   
+            </div>
+
+            <div class="main-content">
+                <div class="profile">
+                    <div class="profile-header">
+                        <ion-icon name="person"></ion-icon>
+                        <h1>User Profile</h1>
+                    </div>
+                    <div class="profile-box">
+                        <ion-icon class="icon" name="person"></ion-icon>
+                        <div class="details">
+                            <h3>Name</h3>
+                            <p id="user-name">User Name</p>
+                        </div>
+                    </div>
+                    <div class="profile-box">
+                        <ion-icon class="icon" name="mail"></ion-icon>
+                        <div class="details">
+                            <h3>Email</h3>
+                            <p id="user-email">user@example.com</p>
+                        </div>
+                    </div>
+                    <div class="profile-box">
+                        <ion-icon class="icon" name="call"></ion-icon>
+                        <div class="details">
+                            <h3>Phone Number</h3>
+                            <p id="user-phoneno">+1234567890</p>
+                        </div>
+                    </div>
+                    <button class="btn-back">Back</button>
+                </div>
+            
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="view_user.js"></script>
+    <script src="load_components.js"></script>
+</body>
+
+</html>
